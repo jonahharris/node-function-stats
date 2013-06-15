@@ -1,0 +1,14 @@
+{
+  "name": "function-stats"
+  , "version": "0.0.1"
+  , "preferGlobal": false
+  , "main": "./lib/FunctionCallStats"
+  , "dependencies":
+    {
+      "nodeunit": ""
+      , "fast-stats": "git://github.com/bluesmoon/node-faststats.git"
+    }
+  , "scripts": {
+      "test": "./node_modules/.bin/nodeunit tests"
+    }
+}
