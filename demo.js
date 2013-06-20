@@ -8,8 +8,8 @@ function roundToNearest (n, k) {
   return (Math.round(n) - (Math.round(n) % k)) + k;
 }
 
-function randomInBenfordDist (stop) {
-  return Math.floor(Math.exp(Math.log(stop) * Math.random()));
+function randomInBenfordDist (maxInt) {
+  return Math.floor(Math.exp(Math.log(maxInt) * Math.random()));
 }
 
 // Register the function

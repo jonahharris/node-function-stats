@@ -1,1 +1,1 @@
-Function argument statistics tracking (for programmatic cache clearing)
+Function argument statistics tracking (for programmatic cache clearing). The premise is one can use aggregate data to determine the most common, simple, semi-predictable arguments which are based on an arithmetic sequence and follow a common sequence difference, such as limit/offset. Obviously, this is not intended to be used for use with other mathematical sequences, like Fibonacci :)
